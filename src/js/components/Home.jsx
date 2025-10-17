@@ -5,23 +5,19 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import {Hooks} from "./Hooks.jsx" 
 
 //create your first component
-const Home = () => {
+export function Home () {
 	return (
-		<div className="text-center">
-            
-
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+		<div>
+			<div classNameNameName="card">
+  				<div classNameName="card-body">
+					sostiene el semaforo
+  				</div>
+			</div>
+			<div class="d-grid gap-2 col-6 mx-auto">
+            	<button type="button" className={"btn btn-danger btn-lg"}></button>
+            	<button type="button" className={"btn btn-warning btn-lg"}></button>
+            	<button type="button" className={"btn btn-success btn-lg"}></button>
+            </div>
 		</div>
 	);
 };
