@@ -9,3 +9,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    background-color: black;
+    width: 10px;
+    border-radius: 0%;
+    margin: auto;
+    
+}
+.lights{
+    background-color: black;
+    width: 80px;
+    height: 245px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+button {
+    margin-left: 6px;
+    margin-right: 3px;
+    margin-top: 6px;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border: none;
+}
